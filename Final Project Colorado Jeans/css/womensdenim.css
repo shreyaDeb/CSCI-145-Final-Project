@@ -1,0 +1,58 @@
+img#jeans1{ /* womens page image */
+    width: 66%;
+    margin-top: 0px;
+    padding: px 5px 5px 0px;
+    display: block;
+    border: 0px;
+    object-fit: cover; /* preserves aspect ratio */
+    object-position: top; /* centers the photo on the top */
+    float: left;
+    height: 66%;
+    z-index: -1;
+}
+img#jeans2{ /* womens page image */
+    width: 66%;
+    margin-top: 0px;
+    padding: 0px 5px 5px 0px;
+    display: block;
+    border: 5px;
+    object-fit: cover;
+    float: right;
+    height: 66%;
+    object-position: top;
+    z-index: -1;
+}
+img#jeans3{ /* womens page image */
+    width: 66%;
+    margin-top: 0px;
+    padding: 5px 0px 5px 5px;
+    display: block;
+    border: 0px;
+    object-fit: cover;
+    float: left;
+    height: 66%;
+    z-index: -1;
+}
+
+div#womens1{ /* text on fashion page */
+   width: 31%;
+    float: left;
+    margin-right: 5px;
+    height: 265px;
+    padding: 10px;;
+}
+div#womens3{ /* text on fashion page */
+    margin-top: 5px;
+    width: 31%;
+    float: left;
+    margin-left: 5px;
+    height: 265px;
+    padding: 10px;
+}
+div#womens2{ /* text on fashion page */
+    width: 31%;
+    float: left;
+    margin-right: 5px;
+    height: 265px;
+    padding: 10px;;
+}

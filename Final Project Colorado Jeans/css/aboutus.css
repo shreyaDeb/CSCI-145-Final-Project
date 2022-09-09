@@ -1,0 +1,71 @@
+img#about1{ /* runway page image */
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    float: left;
+    height: 800px;
+    object-position: top;
+    z-index: -1;
+}
+img#about2{ /* runway page image */
+    width: 95%;
+    height: 800px;
+    margin: 0px 25px 0px 9px;
+    border: 0px;
+    object-fit: cover;
+    z-index: -1;
+}
+img#about3{ /* runway page image */
+    width: 95%;
+    height: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    object-fit: cover;
+    float: right;
+    object-position: top;
+    z-index: -1;
+}
+div#female_text{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    z-index: 10;
+    text-align: center;   
+}
+div#kid_text{ /* div for the textbox of the kid image */
+    position: relative;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    margin-left: 18px;
+    
+}
+div#male_text{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    z-index: 100;
+    margin-left: 28px;
+    text-align: center;
+} 
+.runway_container{ /* image div class */
+    width: 333.3px;
+    float: left;
+    height: 800px;
+}
+.centered{ /* text  div class */
+    float: inherit;
+    bottom: 150px;
+    transform: translate(65px);
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.centered:hover{
+    transition: all .2s linear; 
+    background-color: rgba(0, 0, 0, 0.8);
+}

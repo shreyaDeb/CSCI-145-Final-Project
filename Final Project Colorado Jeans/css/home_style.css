@@ -1,0 +1,127 @@
+img#homePage{ /* homepage image */
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: block;
+    border: 0px;
+    object-fit: cover;
+    object-position: top;
+    height: 550px;;
+}
+#home_text{ 
+    position: relative;
+    align-content: center;
+    width: 35%;
+    text-align: center;
+    padding-top: 0px;
+    height: 55px; 
+}
+.homepage{ /* text  div class */
+    position: relative;
+    margin: 10px;
+    float: inherit;
+    bottom: 150px;
+    transform: translate(325px);
+    color:white;
+    background: rgba(100, 100, 100, 0.7); 
+    
+}
+.homepage:hover{
+    transition: all .2s linear; 
+    background-color: rgba(50, 50, 50, 1.0);
+}
+div#home{
+    height: 550px;
+}
+.img-container{
+    float: left;
+    width: 33.333%;
+    object-fit: cover;
+    padding: 5px;
+}
+.hp_womens{
+    width: 326px;
+    float: left;
+    padding-right: 5px;
+    text-align: center;
+    height: 315px;
+}
+.hp_childerns{
+    width: 400px;
+    float: left;
+    padding-left: 4px;
+    text-align: center;
+    height: 315px;
+}
+.hp_mens{
+    width: 2px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 8px;
+    text-align: center;
+    height: 2px;
+}
+img#womens{ /* homepage image */
+    width: 315px;
+    margin-top: 0px;
+    padding-left: 4px;
+    padding-top: 5px;
+    display: block;
+    border: 0px;
+    object-position: right;
+    object-fit: cover;
+    height: 314px;
+    float: left;
+}
+img#kids{
+    width: 315px;
+    margin-top: 0px;
+    display: block;
+    border: 0px;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+    height: 314px; 
+}
+img#mens{
+    width: 315px;
+    margin-top: 0px;
+    display: block;
+    border: 0px;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+    height: 314px;   
+}
+.womenscollection{
+    position: relative;
+    margin: 15px;
+    float: left;
+    bottom: 175px;
+    justify-content: center;
+    transform: translate(0px);
+    color:white;
+    background: rgba(130, 130, 130, 0.4); 
+    
+}
+.childernscollection{
+    position: relative;
+    margin: 15px;
+    float: inherit;
+    bottom: 140px;
+    justify-content: center;
+    transform: translate(80px);
+    color:white;
+    background: rgba(130, 130, 130, 0.4); 
+}
+.menscollection{
+    position: relative;
+    margin: 15px;
+    float: inherit;
+    bottom: 160px;
+    justify-content: center;
+    transform: translate(80px);
+    color:white;
+    background: rgba(130, 130, 130, 0.4); 
+}
